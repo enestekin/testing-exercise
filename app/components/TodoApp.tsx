@@ -79,26 +79,6 @@ export default function TodoApp() {
             />
           </div>
         </div>
-
-        <div className="mt-8 p-6 bg-white rounded-lg shadow">
-          <h3 className="font-bold text-gray-800 mb-2">
-            TDD Test Türleri Bu Uygulamada:
-          </h3>
-          <div className="space-y-2 text-sm text-gray-600">
-            <div>
-              <strong>Unit Tests:</strong> createTodo(), filterTodos()
-              fonksiyonları
-            </div>
-            <div>
-              <strong>Integration Tests:</strong> AddTodo + TodoList birlikte
-              çalışması
-            </div>
-            <div>
-              <strong>E2E Tests:</strong> Kullanıcının todo ekleyip silmesi
-              akışı
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );
